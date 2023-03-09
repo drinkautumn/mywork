@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tex {
+    width: 800px;
+    height: 350px;
+    margin: 50px;
+    border: 1px solid rgb(126, 159, 221);
+    background-color: rgb(224, 229, 240);
+    position: relative;
+}
+
+.tex-1 {
+    width: 700px;
+    height: 155px;
+    border: 1px solid rgb(218, 145, 85);
+    margin: 50px;
+    background-color: rgb(231, 206, 185);
+    position: absolute;
+}
+
+.tex-2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(238, 53, 115);
+    border: 1px solid rgb(206, 33, 90);
+    position: relative;
+    bottom: 0;
+    margin: 50px;
+    margin-top: 248px;
+}
+
+.tex-3 {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(109, 152, 233);
+    border: 1px solid rgb(65, 105, 180);
+    position: absolute;
+    bottom: 0;
+    margin: 50px;
+    margin-left: 180px;
+}
+
+.pi {
+    padding: 12px;
+    font-size: 18px;
+    font-family: 'Arial';
+    text-align: justify;
+    line-height: 2.5;
+}
+
+.pi-2 {
+    font-size: 18px;
+    font-family: 'Arial';
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.pi-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(166, 191, 236);
+    font-size: 18px;
+    font-family: 'Arial';
+    text-align: center;
+    line-height: 1.5;
+    margin-top: -200px;
+    margin-left: -70px;
+    padding: 25px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+
+.box-1 {
+    margin-top: -150px;
+    margin-left: -16px;
+    border: 47px solid transparent;
+    border-right-color: rgb(166, 191, 236);
+    position: absolute;
+    display: none;
+    z-index: 0;
+}
+
+.tex-2:hover .box {
+    display: block;
+}
+.tex-2:hover .box-1 {
+    display: block;
+}
+
+.pi-3 {
+    font-size: 18px;
+    font-family: 'Arial';
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.pi-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.tex-2:hover {
+    background-color: rgb(241, 123, 163);
+}
+
+.tex-3:hover {
+    background-color: rgb(129, 165, 231);
+}
