@@ -125,3 +125,9 @@
     color: #6f5499;
 }
 
+
+@media screen and (max-width: 900px) {
+    .born {
+        display: flex;
+        flex-direction: column;
+}
