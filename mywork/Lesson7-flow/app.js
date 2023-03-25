@@ -215,16 +215,15 @@
 // console.log(ketQua);
 
 
-// let a = prompt('Nhập số dự đoán a: ')
 // let x = Math.round(20 * Math.random())
-// let i = 0;
+// let i = 1;
+// while ( i <= 5 ) {
+// let a = Number(prompt('Nhập số dự đoán a: '))
 // if (a == x) {
 //     console.log('Đoán đúng');
-// }
-// else if (a !== x) {
+//     break;
+// }else {
 //     console.log('Đoán sai');
-// } else if (a > x) {
-//     console.log('Nhập lại số dự đoán');
-// } else if (a < x) {
-//     console.log('Nhập lại số dự đoán');
+//     i++;
+// }
 // }
