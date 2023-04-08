@@ -90,7 +90,7 @@
 // }
 
 
-//Nhập vào số n cho đến khi n là 1 số trong mảng s.//
+// Nhập vào số n cho đến khi n là 1 số trong mảng s.//
 // let n = prompt("nhập số n")
 // let numbers = [10, 9, 8, 7, 6, 3];
 // for (i = 0; i < numbers.length; i++) {
