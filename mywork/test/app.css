@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 830px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.text {
+    padding-left: 10px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.box {
+    width: 1020px;
+    height: 130px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Arial';
+
+}
+
+.search {
+    display: flex;
+    width: 290px;
+    height: 50px;
+    border: 1px solid #BFC8E6;
+    align-items: center;
+}
+
+.fa-solid {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.header {
+    border: none;
+}
+
+.search-user {
+    padding-left: 10px;
+}
+
+.menu {
+    display: flex;
+    width: 500px;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+.icon-0 {
+    display: flex;
+    flex-direction: row;
+}
+.icon a {
+    padding: 15px;
+    display: flex;
+    color: black;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.icon :hover {
+    background-color: #849FFF;
+}
+
+
+
+
+.text-1 {
+    display: grid;
+    width: 1500px;
+    grid-template-columns: 300px 300px 300px;
+    font-family: 'Arial';
+    grid-column-gap: 130px;
+}
+
+.item {
+    width: 400px;
+    height: 200px;
+    background-color: #fafafa;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.tw-list {
+    padding-top: 20px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sev {
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sev-1 {
+    padding-right: 10px;
+}
+
+.sev-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sev-2 a {
+    text-decoration: none;
+}
+
+.sev-2-1 a {
+    color: #363636;
+    font-size: 0.85em;
+    font-weight: 700;
+}
+
+.sev-2-2 {
+    color: #7a7a7a;
+    font-size: .670em;
+}
+
+.sev-2-2 a {
+    color: #7a7a7a;
+}
+
+.twobutton a {
+    color: #516FD4;
+    font-size: 15px;
+}
+
+.it a {
+    border: 1px solid #BFC8E6;
+    color: #516FD4;
+    border-radius: 10px;
+    padding: 5px;
+}
+.it {
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    line-height: 35px;
+    font-size: 15px;
+}
+
+.it :hover{
+    background-color: #849FFF;
+}
+
